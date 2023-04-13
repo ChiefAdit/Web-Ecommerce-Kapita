@@ -1,0 +1,9 @@
+Parameterized queries: Menggunakan parameterized queries pada SQL statements dapat membantu mencegah SQL injection. Parameterized queries dapat membantu menghindari masalah dengan eksekusi perintah SQL yang berasal dari input pengguna, sehingga data yang disimpan di database tetap aman.
+
+Validasi input data: Validasi data input dari pengguna dapat membantu mencegah serangan injeksi seperti XSS (Cross-Site Scripting) atau CSRF (Cross-Site Request Forgery). Dalam validasi data, pastikan bahwa input dari pengguna memenuhi kriteria yang diharapkan dan aman, dan membuang data yang tidak valid.
+
+Menggunakan HTTPS: HTTPS adalah protokol yang aman untuk pertukaran data antara browser dan server, sehingga data yang dikirim antara kedua belah pihak aman dan terenkripsi. Implementasi HTTPS dapat membantu mencegah pengambilan data oleh pihak yang tidak berwenang.
+
+Menggunakan kebijakan keamanan yang tepat: Menggunakan kebijakan keamanan seperti role-based access control (RBAC) atau access control list (ACL) dapat membantu memastikan bahwa pengguna hanya dapat mengakses data yang mereka miliki hak aksesnya, dan mencegah akses oleh pengguna yang tidak berwenang.
+
+Menggunakan enkripsi data: Enkripsi data dapat membantu melindungi data dari akses yang tidak sah atau pengambilan oleh pihak yang tidak berwenang. Dalam aplikasi web, enkripsi data dapat dilakukan pada sisi client dengan menggunakan algoritma enkripsi seperti Advanced Encryption Standard (AES) atau RSA.
