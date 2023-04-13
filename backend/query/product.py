@@ -97,7 +97,7 @@ def query_get_product_by_id(product_id):
         return products
     else:
         return None
-
+ 
 #hitung jumlah data produk
 def query_count_product():
     conn=connectdb.test_connection()
